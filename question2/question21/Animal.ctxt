@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Write\ a\ description\ of\ class\ Animal\ here.\n\n\ @author\ Roy\ Geagea\n\ @version\ 1.0\n
+comment1.params=animal
+comment1.target=Animal(Sound)
+comment2.params=
+comment2.target=Animal()
+comment3.params=animal
+comment3.target=void\ setAnimal(Sound)
+comment4.params=
+comment4.target=java.lang.String\ executeAnimal()
+numComments=5

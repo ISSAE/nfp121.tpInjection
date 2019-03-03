@@ -22,5 +22,19 @@ public class ServiceLocatorTests extends junit.framework.TestCase{
         syntaxe_exemples.Table table = serviceLocator.lookup("uneTable");
         table.setInt(33);table.setInt(33);
         assertEquals(3,table.taille());
+        
+        question1.exemples.Box<Integer> box = serviceLocator.lookup("box");
+        box.set(1);
+        assertEquals((int)box.get(),1);
+        
+        question1.exemples.Box<String> box2 = serviceLocator.lookup("box2");
+        box2.set("Roy");
+        assertEquals((String)box2.get(), "Roy");
+        
+        question2.question21.Animal cat = serviceLocator.lookup("animal1");
+        question2.question21.Animal dog = serviceLocator.lookup("animal2");
+        assertEquals(cat.executeAnimal(), "Meow");
+        assertEquals(dog.executeAnimal(), "Wuff");
+        
     }
 }

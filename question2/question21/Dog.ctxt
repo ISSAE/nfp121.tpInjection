@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Dog
+comment0.text=\n\ Write\ a\ description\ of\ class\ Dog\ here.\n\n\ @author\ Roy\ Geagea\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=java.lang.String\ makeSound()
+numComments=2
