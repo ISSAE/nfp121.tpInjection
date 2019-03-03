@@ -1,4 +1,4 @@
-package question2.exemples;
+package question1.exemples;
 
 
 import container.*;
@@ -42,16 +42,16 @@ public class BoxTests extends junit.framework.TestCase {
     {
     }
     
-    public void testBox1() throws Exception{
-        ApplicationContext ctx = Factory.createApplicationContext("./question2/exemples/README.TXT");
+    public void testBoxInt() throws Exception{
+        ApplicationContext ctx = Factory.createApplicationContext("./question1/exemples/README.TXT");
         Box<Integer> box =  ctx.getBean("box");
         box.set(1);
         assertEquals((int)box.get(),1);
         assertEquals(Box.class,ctx.getType("box"));
     }
     
-        public void testBox2() throws Exception{
-        ApplicationContext ctx = Factory.createApplicationContext("./question2/exemples/README.TXT");
+        public void testBoxString() throws Exception{
+        ApplicationContext ctx = Factory.createApplicationContext("./question1/exemples/README.TXT");
         Box<String> box =  ctx.getBean("box2");
         box.set("Roy");
         assertEquals((String)box.get(),"Roy");

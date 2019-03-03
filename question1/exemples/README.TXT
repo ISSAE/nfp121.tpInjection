@@ -115,5 +115,14 @@ service.class=question1.exemples.ListeEnCSV
 bean.id.18=config_editor
 config_editor.class=config_editor.GUI
 
+bean.id.19=box
+box.class=question1.exemples.Box
+box.property.1=t
+box.property.1.param.1=Integer
+
+bean.id.20=box2
+box2.class=question1.exemples.Box
+box2.property.1=t
+box2.property.1.param.1=String
 
 

@@ -1,4 +1,4 @@
-package question2.exemples;
+package question1.exemples;
 
 
 /**
