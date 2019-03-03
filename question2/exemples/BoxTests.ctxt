@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BoxTests
+comment0.text=\n\ The\ test\ class\ BoxTests.\n\n\ @author\ Roy\ Geagea\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=BoxTests()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ BoxTests\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testBox1()
+comment5.params=
+comment5.target=void\ testBox2()
+numComments=6

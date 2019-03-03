@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Box
+comment0.text=\n\ Write\ a\ description\ of\ class\ Box\ here.\n\n\ @author\ Roy\ Geagea\n\ @version\ 1.0\n
+comment1.params=t
+comment1.target=void\ set(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.Object\ get()
+numComments=3
